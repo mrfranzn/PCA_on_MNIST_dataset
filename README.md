@@ -1,2 +1,2 @@
 # PCA_on_MNIST_dataset
-Classification of handwritten digits in the MNIST dataset using Principal Component Analysis.
+We classify handwritten digits from the MNIST database using Principal Component Analysis. The effectivness of the classification is compared to that of the centroid classifier that classifies an integer with the label that minimizes the the euclidean distance from the mean of that label in the training data. Using $5$ principal components increases the accuracy of the classification with about $14 \%$ from the centroid method.
